@@ -74,7 +74,7 @@ const page = () => {
         </div>
         <div className={styles.buttonsBox}>
           <button>Google Search</button>
-          <button>I'm Feeling Lucky</button>
+          <button>I&apos;m Feeling Lucky</button>
         </div>
         <div className={styles.languageBox}>
           <span>Google offered in:</span>
