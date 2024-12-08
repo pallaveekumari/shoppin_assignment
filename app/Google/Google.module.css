@@ -148,3 +148,58 @@
   font-size: 13px;
   font-family: Arial, sans-serif;
 }
+
+.footerBox {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+}
+.upperFooterBox {
+  width: 100%;
+  height: 50%;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+.lowerFooterBox {
+  width: 100%;
+  height: 50%;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+.indiaText {
+  font-size: 15px;
+  color: #1f1f1f;
+  font-family: Arial, sans-serif;
+}
+.lowerFooterLeftBox {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  align-items: center;
+  height: 100%;
+}
+.lowerFooterRightBox {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
+  align-items: center;
+  height: 100%;
+}
+.lowerFooterBox a {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #1f1f1f;
+  cursor: pointer;
+  font-weight: 500;
+}

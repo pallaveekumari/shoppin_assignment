@@ -78,15 +78,38 @@ const page = () => {
         </div>
         <div className={styles.languageBox}>
           <span>Google offered in:</span>
-          <a href="https://www.google.com/">हिन्दी</a>
-          <a href="https://www.google.com/">বাংলা</a>
-          <a href="https://www.google.com/">తెలుగు</a>
-          <a href="https://www.google.com/">मराठी</a>
-          <a href="https://www.google.com/">தமிழ்</a>
-          <a href="https://www.google.com/">ગુજરાતી</a>
-          <a href="https://www.google.com/">ಕನ್ನಡ</a>
-          <a href="https://www.google.com/">മലയാളം</a>
-          <a href="https://www.google.com/">ਪੰਜਾਬੀ</a>
+          <a href="">हिन्दी</a>
+          <a href="">বাংলা</a>
+          <a href="">తెలుగు</a>
+          <a href="">मराठी</a>
+          <a href="">தமிழ்</a>
+          <a href="">ગુજરાતી</a>
+          <a href="">ಕನ್ನಡ</a>
+          <a href="">മലയാളം</a>
+          <a href="">ਪੰਜਾਬੀ</a>
+        </div>
+      </div>
+      <div className={styles.footerBox}>
+        <div className={styles.upperFooterBox}>
+          <span className={styles.indiaText}>India</span>
+        </div>
+        <div className={styles.lowerFooterBox}>
+          <div className={styles.lowerFooterLeftBox}>
+            <a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
+              Advertising
+            </a>
+            <a href="https://www.google.com/intl/en_in/business/">Business</a>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1">
+              How Search Works
+            </a>
+          </div>
+          <div className={styles.lowerFooterRightBox}>
+            <a href="https://policies.google.com/privacy?hl=en-IN&fg=1">
+              Privacy
+            </a>
+            <a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
+            <a href="">Settings</a>
+          </div>
         </div>
       </div>
     </div>
